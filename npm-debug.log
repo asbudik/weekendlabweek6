@@ -1,0 +1,81 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '--save', 'cairo' ]
+2 info using npm@2.0.0-alpha-5
+3 info using node@v0.10.30
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json weekendlab6@0.0.0 No description
+6 warn package.json weekendlab6@0.0.0 No repository field.
+7 warn package.json weekendlab6@0.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'cairo', null ]
+10 verbose cache add spec="cairo" args=["cairo",null]
+11 verbose parsed spec { raw: 'cairo',
+11 verbose parsed spec   scope: null,
+11 verbose parsed spec   name: 'cairo',
+11 verbose parsed spec   rawSpec: '',
+11 verbose parsed spec   spec: '*',
+11 verbose parsed spec   type: 'range' }
+12 verbose addNamed [ 'cairo', '*' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 1d04a99a-cairo cairo@*
+15 verbose lock cairo@* /Users/adam/.npm/1d04a99a-cairo.lock
+16 silly addNameRange { name: 'cairo', range: '*', hasData: false }
+17 verbose mapToRegistry name cairo
+18 verbose mapToRegistry uri https://registry.npmjs.org/cairo
+19 verbose request where is /cairo
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 8995a66f7fe3e297
+22 verbose request url raw /cairo
+23 verbose request url resolving [ 'https://registry.npmjs.org/', './cairo' ]
+24 verbose request url resolved https://registry.npmjs.org/cairo
+25 verbose request where is https://registry.npmjs.org/cairo
+26 verbose request no basic auth needed
+27 info trying registry request attempt 1 at 20:25:20
+28 http GET https://registry.npmjs.org/cairo
+29 http 404 https://registry.npmjs.org/cairo
+30 verbose headers { date: 'Fri, 15 Aug 2014 03:25:21 GMT',
+30 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 verbose headers   'content-type': 'application/json',
+30 verbose headers   'cache-control': 'max-age=0',
+30 verbose headers   'content-length': '52',
+30 verbose headers   'accept-ranges': 'bytes',
+30 verbose headers   via: '1.1 varnish',
+30 verbose headers   age: '0',
+30 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+30 verbose headers   'x-cache': 'MISS',
+30 verbose headers   'x-cache-hits': '0',
+30 verbose headers   'x-timer': 'S1408073121.625357,VS0,VE38',
+30 verbose headers   'keep-alive': 'timeout=10, max=50',
+30 verbose headers   connection: 'Keep-Alive' }
+31 silly registry.get cb [ 404,
+31 silly registry.get   { date: 'Fri, 15 Aug 2014 03:25:21 GMT',
+31 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=0',
+31 silly registry.get     'content-length': '52',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     'x-served-by': 'cache-sjc3135-SJC',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1408073121.625357,VS0,VE38',
+31 silly registry.get     'keep-alive': 'timeout=10, max=50',
+31 silly registry.get     connection: 'Keep-Alive' } ]
+32 silly lockFile 1d04a99a-cairo cairo@*
+33 silly lockFile 1d04a99a-cairo cairo@*
+34 error 404 404 Not Found: cairo
+34 error 404
+34 error 404 'cairo' is not in the npm registry.
+34 error 404 You should bug the author to publish it
+34 error 404 It was specified as a dependency of 'weekendlab6'
+34 error 404
+34 error 404 Note that you can also install from a
+34 error 404 tarball, folder, or http url, or git url.
+35 error System Darwin 13.3.0
+36 error command "node" "/usr/local/bin/npm" "install" "--save" "cairo"
+37 error cwd /Users/adam/code/weekendlab6
+38 error node -v v0.10.30
+39 error npm -v 2.0.0-alpha-5
+40 error code E404
+41 verbose exit [ 1, true ]
